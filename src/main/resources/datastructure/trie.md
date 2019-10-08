@@ -1,3 +1,5 @@
+一、什么是Trie树
+
 Trie树，又叫字典树、前缀树（Prefix Tree）、单词查找树 或 键树，是一种多叉树结构。如下图：
 ![字典树](https://github.com/AutumnYear/hello-world/blob/master/src/main/resources/static/img/trie.jpg)
 
@@ -10,6 +12,7 @@ Trie树，又叫字典树、前缀树（Prefix Tree）、单词查找树 或 键
 可以看出，Trie树的关键字一般都是字符串，而且Trie树把每个关键字保存在一条路径上，而不是一个结点中。另外，两个有公共前缀的关键字，在Trie树中前缀部分的路径相同，所以Trie树又叫做前缀树（Prefix Tree）。
 
 二、Trie树的优缺点
+
 Trie树的核心思想是空间换时间，利用字符串的公共前缀来减少无谓的字符串比较以达到提高查询效率的目的。
 
 优点
