@@ -1,5 +1,6 @@
 Trie树，又叫字典树、前缀树（Prefix Tree）、单词查找树 或 键树，是一种多叉树结构。如下图：
 ![字典树](https://github.com/AutumnYear/hello-world/blob/master/src/main/resources/static/img/trie.jpg)
+
 上图是一棵Trie树，表示了关键字集合{“a”, “to”, “tea”, “ted”, “ten”, “i”, “in”, “inn”} 。从上图可以归纳出Trie树的基本性质：
 * 根节点不包含字符，除根节点外的每一个子节点都包含一个字符。
 * 从根节点到某一个节点，路径上经过的字符连接起来，为该节点对应的字符串。
