@@ -12,11 +12,11 @@ fork常用的使用场景有两种
 
 我们在进行日常代码pull和push的时候,是对origin的修改和同步,如果开发完成后,想将自己的改动同步到公共分支,需要创建pull request
 
-![fork工作流](https://github.com/AutumnYear/hello-world/tree/master/src/main/resources/tools/git/tools/git/fork.jpg)
+![fork工作流](https://github.com/AutumnYear/hello-world/blob/master/src/main/resources/tools/git/fork.jpg)
 
 如果其余贡献者已经对项目进行了修改,如果想在这个基础上做新的修改,需要同步fork,就是从公共仓库获取最新代码
 
-![同步fork](https://github.com/AutumnYear/hello-world/tree/master/src/main/resources/tools/git/tools/git/syncFork.jpg)
+![同步fork](https://github.com/AutumnYear/hello-world/blob/master/src/main/resources/tools/git/syncFork.jpg)
 
 操作
 
